@@ -109,7 +109,7 @@ class DB:
                 record_id = current_record.next
 
 
-TEST_DB = DB("filesystem.db", 2, overwrite=True)
-TEST_DB["eve"] = "lala"
-value = TEST_DB["eve"]
-print(value)
+# TEST_DB = DB("filesystem.db", 2, overwrite=True)
+# TEST_DB["eve"] = "lala"
+# value = TEST_DB["eve"]
+# print(value)
